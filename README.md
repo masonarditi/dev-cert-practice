@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+first dev cert practice
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+- made simple counter solidity contract
+- deployed on base sepolia
+- install rainbowkit w/ wagmi
+- made frontend, no styling tho
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+NOTES:
+- compile code on remix, then grab ABI
+- readContract is weird
